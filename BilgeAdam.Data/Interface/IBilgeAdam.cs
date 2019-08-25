@@ -1,4 +1,5 @@
-﻿using System.ServiceModel;
+﻿using System;
+using System.ServiceModel;
 
 namespace BilgeAdam.Data.Interface
 {
@@ -9,6 +10,6 @@ namespace BilgeAdam.Data.Interface
         void Test1();
 
         [OperationContract]
-        void MyName(string name);
+        void MyName(string name, DateTime myDate);
     }
 }
