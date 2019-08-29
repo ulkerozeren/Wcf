@@ -11,5 +11,8 @@ namespace BilgeAdam.Data.Interface
 
         [OperationContract]
         void MyName(string name, DateTime myDate);
+
+        [OperationContract]
+        DateTime ServerDate();
     }
 }

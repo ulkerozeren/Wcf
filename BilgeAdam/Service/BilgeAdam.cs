@@ -26,8 +26,10 @@ namespace BilgeAdam.Service
             Program.channel.MyName("ülker", SendDate);
         }
 
-
-  
+        public DateTime ServerDate()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 
